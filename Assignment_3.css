@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(227, 85, 85);
+}
+
+#h1{
+    text-align: center;
+    color: maroon;
+    border: 3px solid black;
+    border-color: antiquewhite;
+    border-width: 5px;
+    
+}
+*{
+    background-color: aqua;
+}
+#h1{
+    color: red;
+    text-align : center;
+    background-color:yellow;
+}
+p{
+    color :red;
+    font-family: arial;
+}
+.list{
+    color :red;
+    border :2px solid black; 
+    background-color: lightgreen;
+}
+
+

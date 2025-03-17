@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="Assignment2.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <h3>Assignment 2-Table</h3>
+    <table>
+         <thead> <!-- used to group the header content of the table -->
+            <tr>
+                <th class ="header">Item</th>
+                <th class ="header">Quantity</th>
+                <th class ="header">Unit Price</th>
+                <th class ="header">Price</th>
+            </tr>
+        </thead>
+         
+        <tbody><!--The <tbody> tag in an HTML table is used to group the main body content of a table, 
+                    separating it from the header (<thead>) and footer (<tfoot>).-->
+        <tr> <!--Pencil rows-->
+            <td>Pencils</td>
+            <td>2</td>
+            <td>$1</td>
+            <td>$2</td>
+        </tr>
+
+        <tr> <!--Erasers rows-->
+            <td>Erasers</td>
+            <td>4</td>
+            <td rowspan="2">$0.50</td>
+            <td>$2</td>
+        </tr>
+
+        <tr> <!--Total rows-->
+            <td colspan = "2">SubTotal</td>
+            <td>$4</td>
+        </tr>
+
+        <tr>
+            <td>Tax</td>
+            <td>10%</td>
+            <td colspan="2">$0.4</td>
+        </tr>
+        <tr>
+            <td colspan="4">Footer of the Page</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
