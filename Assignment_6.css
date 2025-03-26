@@ -1,0 +1,124 @@
+body{
+    background-color:bisque ;
+}
+
+/*
+# = id selector
+. = class selector
+*/
+
+#Newbar{
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+}
+
+#new1{
+    position: absolute;
+    margin-left:10px;
+}
+/* for margin left :here we are assuming each element width is 230px
+so we can add 10px margin to left of each element for eg 230+10=240(new2)
+240 + 230 = 470 etc  */
+#new2{
+    position:absolute;
+    margin-top:10px;
+    margin-left:240px;
+}
+
+#new3{
+    position:absolute;
+    margin-top:10px;
+    margin-left:470px;
+}
+#new4{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+#new5{
+    position:absolute;
+    margin-top:10px;
+    margin-left:930px;
+}
+#new6{
+    position:absolute;
+    margin-top:10px;
+    margin-left:1160px;
+}
+
+.new{
+    border: 1.5px solid rgb(225, 173, 41);
+    padding: 10px 15px;
+    height: 20px;
+    width:80px;
+    margin:10px;
+    border-radius: 50px;
+    background-color: rgb(128, 157, 209);
+    box-shadow: inset 0 0 10px rgb(235, 235, 16);
+    text-align: center;
+}
+
+.box1{
+    margin: 10px;
+    padding: 15px;
+    height:200px;
+    border: 3px solid rgb(133, 53, 53);
+    margin-top: 5px;
+    
+}
+
+.text1{
+    font-size:medium;
+    margin:10px;
+    padding:10px;
+    height:50px;
+    width:500px;
+    border: 5px solid rgb(133, 53, 53);
+    overflow: scroll;
+   
+
+}
+.text2{
+    font-size:medium;
+    margin:10px;
+    padding:10px;
+    height:70px;
+    width:500px;
+    border: 5px solid rgb(133, 53, 53);
+    overflow:auto;
+
+}
+
+.text3{
+    margin:10px;
+    padding:10px;
+    height:70px;
+    width:500px;
+    border: 5px solid rgb(133, 53, 53);
+    overflow-x: scroll ;
+    text-wrap:nowrap; /* by using these property we can scroll left to right */
+
+}
+
+.text4{
+    margin:10px;
+    padding:10px;   
+    height:70px;
+    width:500px;
+    border: 5px solid rgb(133, 53, 53);
+    overflow:visible; /*this property text will overflow the box and we see through it*/
+
+}
+.text5{
+    font-size:medium;
+    margin:10px;
+    padding:10px;
+    height:70px;
+    width:500px;
+    border: 5px solid rgb(133, 53, 53);
+    text-overflow: ellipsis; /*this property will show the text with ellipsis */
+    white-space: nowrap; /*this property will show the text in single line */
+    overflow:hidden; /*this property text will hide the overflow text */
+
+}
